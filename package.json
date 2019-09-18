@@ -1,0 +1,26 @@
+{
+  "name": "basic-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidOVM/basic-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidOVM/basic-api/issues"
+  },
+  "homepage": "https://github.com/DavidOVM/basic-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^10.0.1",
+    "express": "^4.17.1",
+    "http": "0.0.0"
+  }
+}
